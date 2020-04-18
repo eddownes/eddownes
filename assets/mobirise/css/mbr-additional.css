@@ -10,6 +10,9 @@
 #ext_menu-0 .mbr-navbar__hamburger {
   color: #ffffff;
 }
+#ext_menu-0 .mbr-brand__name a {
+  font-size: 22px;
+}
 #msg-box4-2 .mbr-header__text {
   color: #ffffff;
 }

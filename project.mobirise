@@ -6,7 +6,9 @@
       "name": "default",
       "title": "Mobirise",
       "styling": {},
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#9c9c9c"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.12.3",
@@ -61,12 +63,14 @@
             },
             ".mbr-navbar__hamburger": {
               "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "22px"
             }
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
           "logo": {
             "image": {
-              "active": true,
               "src": "images/logo.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
@@ -75,11 +79,15 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "code",
+              "family": "MobiriseIcons",
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "active": true
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ED DOWNES</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-0"
         },
@@ -129,7 +137,7 @@
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#f97352",
+            "bgColor": "#27aae0",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -208,7 +216,6 @@
           "subheader": "By John Smith posted July 30, 2015",
           "media1": {
             "image": {
-              "active": true,
               "src": "images/bootstrap.png",
               "class": "mbr-figure__img",
               "width": 600
@@ -219,8 +226,13 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "code",
+              "family": "MobiriseIcons",
               "link": "",
-              "size": 0
+              "size": 0,
+              "active": true,
+              "color": "#27aae0"
             }
           },
           "title1": "BOOTSTRAP 3",
@@ -228,7 +240,6 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media2": {
             "image": {
-              "active": true,
               "src": "images/responsive.png",
               "class": "mbr-figure__img",
               "width": 600
@@ -239,8 +250,13 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "github",
+              "family": "MobiriseIcons",
               "link": "",
-              "size": 0
+              "size": 0,
+              "active": true,
+              "color": "#27aae0"
             }
           },
           "title2": "RESPONSIVE",
@@ -248,7 +264,6 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media3": {
             "image": {
-              "active": true,
               "src": "images/google-fonts.png",
               "class": "mbr-figure__img",
               "width": 600
@@ -259,8 +274,13 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "edit",
+              "family": "MobiriseIcons",
               "link": "",
-              "size": 0
+              "size": 0,
+              "active": true,
+              "color": "#27aae0"
             }
           },
           "title3": "WEB FONTS",
@@ -268,7 +288,6 @@
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media4": {
             "image": {
-              "active": true,
               "src": "images/unlimited-websites.png",
               "class": "mbr-figure__img",
               "width": 600
@@ -279,8 +298,13 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "browse",
+              "family": "MobiriseIcons",
               "link": "",
-              "size": 0
+              "size": 0,
+              "active": true,
+              "color": "#27aae0"
             }
           },
           "title4": "UNLIMITED WEBSITES",
@@ -430,18 +454,22 @@
             "image": {
               "src": "images/footer-logo.png",
               "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265,
-              "active": true
+              "width": 265
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "code",
+              "family": "MobiriseIcons",
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "color": "#7c706b",
+              "active": true
             }
           },
-          "text1": "<strong>ADDRESS</strong><br>\n1234 Street Name<br>\nCity, AA 99999",
-          "text2": "<strong>CONTACTS</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\">Website builder</a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a></li></ul>",
+          "text1": "<strong>ADDRESS</strong><br>\n4615 Mill Village Rd<br>\nRaleigh, NC 27512",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: Ed@WickedSaas.com<br>\nPhone: +1 (727) 510-5785<br>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\">N</a>on Stop Customers</li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\">W</a>icked Saas</li></ul>",
           "_tags": [
             "Theme"
           ],
