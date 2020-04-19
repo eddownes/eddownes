@@ -231,7 +231,7 @@
               "name": "code",
               "family": "MobiriseIcons",
               "link": "",
-              "size": 0,
+              "size": "150",
               "active": true,
               "color": "#27aae0"
             }
@@ -255,7 +255,7 @@
               "name": "github",
               "family": "MobiriseIcons",
               "link": "",
-              "size": 0,
+              "size": "150",
               "active": true,
               "color": "#27aae0"
             }
@@ -279,7 +279,7 @@
               "name": "edit",
               "family": "MobiriseIcons",
               "link": "",
-              "size": 0,
+              "size": "150",
               "active": true,
               "color": "#27aae0"
             }
@@ -303,7 +303,7 @@
               "name": "browse",
               "family": "MobiriseIcons",
               "link": "",
-              "size": 0,
+              "size": "150",
               "active": true,
               "color": "#27aae0"
             }
