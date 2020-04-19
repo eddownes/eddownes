@@ -22,7 +22,8 @@
     "gdpr": false,
     "cookiesAlert": false,
     "uniqCompNum": 8,
-    "versionPublish": "4.12.3"
+    "versionPublish": "4.12.3",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
